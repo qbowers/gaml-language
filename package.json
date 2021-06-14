@@ -1,0 +1,25 @@
+{
+    "name": "gaml-language",
+    "displayName": "GAML Language",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "gaml",
+            "aliases": ["GAML", "gaml"],
+            "extensions": [".gaml"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "gaml",
+            "scopeName": "source.gaml",
+            "path": "./syntaxes/gaml-language-configuration.json"
+        }]
+    }
+}
